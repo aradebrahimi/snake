@@ -1,0 +1,69 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-container {
+    background-color: rgb(129, 95, 95);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .main {
+        background-color: white;
+        .table {
+            margin: 0;
+            padding: 0;
+            border: 1px rgba(99, 97, 97, 0.308) solid;
+            border-spacing: 0;
+            width: auto;
+            height: auto;
+            .td {
+                width: 8px;
+                height: 8px;
+            }
+        }
+    }
+    .labels-records {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .labels {
+            background-color: rgb(129, 95, 95);
+            .labels-table {
+                background-color: rgb(129, 95, 95);
+                margin: 10px 0px 0px 0px;
+                border-spacing: 0;
+                border: 2px rgb(129, 95, 95) solid;
+                .labels-td {
+                    text-align: center;
+                    border: 1px rgb(129, 95, 95) solid;
+                    width: fit-content;
+                    height: 15px;
+                }
+            }
+        }
+        .records {
+            background-color: rgb(129, 95, 95);
+            .records-table {
+                background-color: white;
+                margin: 10px 0px 0px 0px;
+                border-spacing: 0;
+                border: 2px black solid;
+                .records-td {
+                    text-align: center;
+                    border: 1px black solid;
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+    }   
+}

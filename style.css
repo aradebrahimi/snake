@@ -1,0 +1,107 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container {
+  background-color: #815f5f;
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .main {
+  background-color: white;
+}
+
+.main-container .main .table {
+  margin: 0;
+  padding: 0;
+  border: 1px rgba(99, 97, 97, 0.308) solid;
+  border-spacing: 0;
+  width: auto;
+  height: auto;
+}
+
+.main-container .main .table .td {
+  width: 8px;
+  height: 8px;
+}
+
+.main-container .labels-records {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .labels-records .labels {
+  background-color: #815f5f;
+}
+
+.main-container .labels-records .labels .labels-table {
+  background-color: #815f5f;
+  margin: 10px 0px 0px 0px;
+  border-spacing: 0;
+  border: 2px #815f5f solid;
+}
+
+.main-container .labels-records .labels .labels-table .labels-td {
+  text-align: center;
+  border: 1px #815f5f solid;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 15px;
+}
+
+.main-container .labels-records .records {
+  background-color: #815f5f;
+}
+
+.main-container .labels-records .records .records-table {
+  background-color: white;
+  margin: 10px 0px 0px 0px;
+  border-spacing: 0;
+  border: 2px black solid;
+}
+
+.main-container .labels-records .records .records-table .records-td {
+  text-align: center;
+  border: 1px black solid;
+  width: 15px;
+  height: 15px;
+}
+/*# sourceMappingURL=style.css.map */
